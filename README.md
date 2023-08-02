@@ -11,7 +11,7 @@ A demo project for various views clipping.
    - Reversing a transformation by applying another transformation is prone to errors
    <img src="screenshots/first_transform.png"/>
    <img src="screenshots/restore.png"/>
-   - [Courtesy of Litten](http://html5.litten.com/understanding-save-and-restore-for-the-canvas-context/)
+   - [Courtesy of Litten](http://html5.litten.com/understanding-save-and-restore-for-the-canvas-context)
    
 3. `quickReject()` - check whether the rectangle is outside the bounds of the canva, useful when constructing complex shapes and nned to do as fast as possible.
    - With this, you can decide efficiently which objects you do not have to draw at all, and there is no need to write intersection logic.
